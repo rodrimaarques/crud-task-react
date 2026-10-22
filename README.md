@@ -50,7 +50,7 @@ git clone URL_DO_REPOSITORIO
 Entre na pasta do projeto:
 
 ```bash
-cd taskflow
+cd CRUD - REACT
 ```
 
 ### 2. Instalar as dependências
