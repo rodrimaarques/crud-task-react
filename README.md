@@ -1,16 +1,108 @@
-# React + Vite
+#Gerenciador de Tarefas
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+O TaskFlow é um projeto desenvolvido com React JS com o objetivo de facilitar a organização de tarefas, o acompanhamento de atividades e o gerenciamento da rotina.
 
-Currently, two official plugins are available:
+A ideia é criar uma aplicação simples e intuitiva, na qual seja possível organizar compromissos, definir prioridades, acompanhar prazos e visualizar o andamento das tarefas em um só lugar.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Além de ser um projeto de desenvolvimento, o TaskFlow faz parte do meu processo de aprendizado em React JS, com foco na construção de aplicações funcionais, organização de código e boas práticas de desenvolvimento.
 
-## React Compiler
+## Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Cadastro, edição, visualização e exclusão de tarefas (CRUD).
+- Definição de prioridades e status.
+- Organização por categorias e tags.
+- Pesquisa, filtros e ordenação de tarefas.
+- Identificação de tarefas atrasadas.
+- Gerenciamento de subtarefas.
+- Dashboard com indicadores de produtividade.
+- Visualização de tarefas do dia, próximas, atrasadas e concluídas.
+- Armazenamento local dos dados.
+- Importação e exportação de informações.
+- Interface responsiva para diferentes tamanhos de tela.
+- Tema claro e escuro.
 
-## Expanding the Oxlint configuration
+*As funcionalidades listadas serão disponibilizadas conforme forem implementadas no projeto.*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Tecnologias utilizadas
+
+- **React JS** — construção da interface.
+- **JavaScript** — lógica e funcionalidades da aplicação.
+- **Vite** — ambiente de desenvolvimento.
+- **CSS** — estilização e responsividade.
+- **Lucide React** — ícones da interface.
+- **LocalStorage** — persistência local dos dados.
+
+## Como executar o projeto
+
+### Pré-requisitos
+
+Antes de começar, é necessário ter instalado:
+
+- [Node.js](https://nodejs.org/)
+- npm, incluído na instalação do Node.js.
+
+### 1. Clonar o repositório
+
+```bash
+git clone URL_DO_REPOSITORIO
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd taskflow
+```
+
+### 2. Instalar as dependências
+
+```bash
+npm install
+```
+
+### 3. Executar a aplicação
+
+```bash
+npm run dev
+```
+
+O terminal exibirá o endereço local para acessar a aplicação pelo navegador.
+
+### 4. Gerar a versão de produção
+
+Para verificar e gerar a versão de produção:
+
+```bash
+npm run build
+```
+
+Os arquivos gerados ficarão na pasta `dist`.
+
+## Armazenamento de dados
+
+Nesta versão, o TaskFlow utiliza o LocalStorage do navegador para armazenar as informações.
+
+Isso permite manter as tarefas salvas mesmo depois de atualizar a página ou fechar o navegador. Como o armazenamento é local, os dados não são sincronizados automaticamente entre dispositivos ou usuários.
+
+## Objetivo do projeto
+
+Este projeto tem como objetivo aprofundar meus conhecimentos em desenvolvimento front-end, especialmente em React JS, JavaScript, manipulação de estados, componentes reutilizáveis, operações CRUD e persistência de dados.
+
+Também busco desenvolver uma aplicação organizada, funcional e de fácil manutenção, aplicando na prática os conhecimentos adquiridos durante meus estudos.
+
+## Próximos passos
+
+O projeto poderá receber melhorias como:
+
+- Autenticação de usuários.
+- Integração com banco de dados.
+- Sincronização de tarefas entre dispositivos.
+- Novos indicadores de produtividade.
+- Melhorias de usabilidade e acessibilidade.
+
+## Autor
+
+**Davi Limeira**
+
+Projeto desenvolvido para aprendizado e prática de desenvolvimento web com React JS.
+
+---
