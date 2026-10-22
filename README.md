@@ -1,4 +1,4 @@
-#Gerenciador de Tarefas
+# Gerenciador de Tarefas
 
 O TaskFlow é um projeto desenvolvido com React JS com o objetivo de facilitar a organização de tarefas, o acompanhamento de atividades e o gerenciamento da rotina.
 
